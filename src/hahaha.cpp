@@ -948,6 +948,7 @@ int main() {
 		glClear(GL_DEPTH_BUFFER_BIT);
 		pshadow_depth.use();
 
+
 		/*for(int i = 0; i < 6; ++i)
 		{
 			pshadow_depth.setMat4("shadowMatrices[" + std::to_string(i) + "]", pshadowTransforms[i]);
